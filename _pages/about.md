@@ -7,43 +7,66 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+毛泽东以“二十八画生”为笔名交友的故事展现了他在青年时期积极寻求志同道合之人，共同探索救国救民之路的伟大历程。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**一、发布征友启事**
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+1915 年秋天，正在湖南第一师范读书的毛泽东，为了多结交志同道合的有志青年，共同探讨救国救民之道，用蜡板油印一份二三百字的落款是“二十八画生”的征友启事。启事最后引用了“嘤其鸣矣，求其友声”这两句诗，通讯处是“第一师范附属学校陈章甫（即陈昌，当时任附小教员）转交”。暑假刚过，长沙一家报纸上，也刊登了这样一则启事：“二十八画生，长沙布衣学子，欲觅同道中人，能吃苦耐劳，不惜己身为国，皆吾所求也。”
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+毛泽东在湖南第一师范读书时，化名“二十八画生”，向长沙各校发出征友启事。这个广告得到三个半人响应，一个是罗章龙，另外还有两个青年。为什么会有半个呢？因为有一个虽然响应但没有明确表态，此人叫李隆郅（即李立三）。
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**二、征友目的**
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+毛泽东以“二十八画生”为名张贴《征友启事》，成为理解早年毛泽东寻找志同道合朋友以实现救国救民志向的重要佐证。他希望结交能吃苦耐劳、不惜己身为国的青年，共同探讨救国救民的道路。
 
-**Markdown generator**
+**三、后续影响**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+后来，毛泽东逐渐结识了一批志同道合的朋友，主要有蔡和森、陈书农、何叔衡、萧子升、陈昌、陶毅、向警予、杨开慧等十来个人。毛泽东和这些有志青年成立了新民学会。
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+毛泽东的这一举措，在当时的青年群体中产生了广泛的影响。他以坚定的信念和远大的理想，吸引了众多有识之士的关注和响应。这些青年们在共同的追求下，积极探索国家的未来，为中国的革命事业奠定了坚实的基础。
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+总之，毛泽东以“二十八画生”为笔名交友的故事，是中国近现代史上一段充满激情与理想的历史篇章。它展现了青年毛泽东的远大抱负和坚定信念，也为我们后人树立了榜样。
+## 毛泽东以‘二十八画生’为笔名交友时，选择在哪些渠道发布征友启事？
+**毛泽东以“二十八画生”为笔名交友时，主要选择在长沙的一些重要渠道发布征友启事。**
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **长沙各中等学校传达室门口**：1915 年 9 月中旬，长沙城区各中等学校传达室门口张贴有一张“征友启事”。这些学校作为知识的传播地和青年学子的聚集地，是毛泽东认为能够找到志同道合之人的重要场所。通过在学校传达室门口张贴启事，可以让众多学生看到，增加找到有着共同理想和抱负的朋友的几率。
+- **长沙各地的重要学校**：长沙各地的重要学校都收到了一份署名“二十八画生”的“征友启事”。这一举措进一步扩大了征友启事的传播范围，不仅涵盖了中等学校，还包括了其他重要的教育机构。这些学校中的学生来自不同的背景，有着不同的思想和志向，毛泽东希望通过这种方式，能够结识更多有志于救国救民的青年。
+- **报纸**：1915 年秋，暑假刚过，长沙一家报纸上，刊登了一则启事：“二十八画生，长沙布衣学子，欲觅同道中人，能吃苦耐劳，不惜己身为国，皆吾所求也。”报纸作为当时重要的信息传播媒介，具有广泛的受众群体。通过在报纸上发布征友启事，毛泽东可以将自己的交友愿望传达给更广泛的社会群体，不仅包括学生，还可能吸引到其他各界的有志之士。
+
+综上所述，毛泽东以“二十八画生”为笔名交友时，选择在长沙各中等学校传达室门口、长沙各地的重要学校以及报纸等渠道发布征友启事，以寻找志同道合的朋友，共同为实现救国救民的志向而努力。
+## 毛泽东以‘二十八画生’为笔名交友后，与这些朋友具体开展了哪些活动？
+毛泽东以“二十八画生”为笔名交友后，与这些志同道合的朋友开展了一系列具有重大意义的活动。
+
+**一、成立新民学会**
+毛泽东和蔡和森、陈书农、何叔衡、萧子升、陈昌、陶毅、向警予、杨开慧等十来个人成立了新民学会。新民学会以“革新学术，砥砺品行，改良人心风俗”为宗旨，积极探索救国救民的道路。会员们定期聚会，交流思想，讨论国内外形势和各种社会问题。他们通过阅读进步书籍、组织演讲和辩论等活动，不断提高自身的思想觉悟和政治素养。新民学会成为了当时湖南地区最有影响力的进步团体之一，为中国的革命事业培养了大批优秀人才。
+
+**二、开展社会调查**
+毛泽东与朋友们一起深入农村、工厂等地开展社会调查。他们了解底层人民的生活状况，倾听民众的呼声，为日后制定革命策略提供了重要依据。通过这些调查，他们深刻认识到中国社会的阶级矛盾和农民问题的重要性，为后来的农民运动奠定了基础。
+
+**三、组织学生运动**
+毛泽东和他的朋友们积极组织学生运动，反对封建军阀统治和帝国主义侵略。他们领导学生罢课、游行示威，要求改革教育制度，争取学生的民主权利。这些学生运动在全国范围内产生了广泛影响，激发了广大青年学生的爱国热情和革命斗志。
+
+**四、传播进步思想**
+他们通过创办刊物、发表文章等方式，传播马克思主义等进步思想。毛泽东等人在《湘江评论》等刊物上发表了大量具有深刻思想和强烈感染力的文章，宣传反帝反封建的革命主张，唤起民众的觉醒。他们还组织读书会、演讲会等活动，向广大群众普及进步思想，提高民众的政治意识。
+
+总之，毛泽东以“二十八画生”为笔名交友后，与这些朋友一起开展了丰富多彩的活动，为中国的革命事业做出了卓越贡献。
+## 毛泽东以‘二十八画生’为笔名交友的举措对当时的社会思潮产生了哪些影响？
+毛泽东以“二十八画生”为笔名交友的举措在当时产生了多方面的重大影响。
+
+**一、推动青年进步思想的交流与传播**
+
+毛泽东以“二十八画生”之名张贴《征友启事》，积极寻找志同道合的朋友。这一举措为当时的青年学子提供了一个交流思想的平台。在那个时代，社会正处于变革之中，各种思潮涌动。通过这种方式，毛泽东吸引了一批有理想、有抱负的青年，如罗章龙、蔡和森、陈书农、何叔衡等人。他们在一起探讨国家的命运、民族的未来，交流各种进步思想，包括马克思主义、民主与科学等。这种思想的交流与碰撞，激发了青年们的爱国热情和社会责任感，为后来的革命运动培养了一批骨干力量。
+
+**二、促进新民学会的成立与发展**
+
+毛泽东通过“二十八画生”的征友活动，逐渐结识了一批志同道合的朋友。他们成立了新民学会，这是一个对中国近代历史产生了深远影响的进步团体。新民学会以“改造中国与世界”为宗旨，积极开展各种革命活动。学会成员在毛泽东的领导下，深入研究马克思主义，传播革命思想，组织学生运动和工人运动。新民学会的成立和发展，为中国共产党的成立奠定了思想基础和组织基础。
+
+**三、引领青年积极投身社会变革**
+
+毛泽东以“二十八画生”交友的行动，向广大青年传递了一个强烈的信号：青年应该积极投身社会变革，为国家和民族的命运而奋斗。在当时的社会背景下，许多青年感到迷茫和无助，不知道自己的未来在哪里。毛泽东的行动激励了他们，让他们认识到自己肩负的历史使命。这种榜样的力量，促使更多的青年走出书斋，投身到社会变革的洪流中去。他们积极参与各种社会活动，如抵制日货、反对封建礼教等，为推动社会进步做出了贡献。
+
+**四、打破传统交友观念的束缚**
+
+在传统社会中，交友往往受到门第、身份等因素的限制。毛泽东以“二十八画生”之名征友，打破了这种传统观念的束缚。他强调交友要以志同道合为基础，不论出身、地位如何，只要有救国救民的志向，都可以成为朋友。这种全新的交友观念，为青年们提供了一个更加广阔的交友空间，促进了不同阶层、不同背景的青年之间的交流与合作。
+
+总之，毛泽东以“二十八画生”为笔名交友的举措，在当时的社会思潮中产生了深远的影响。它推动了青年进步思想的交流与传播，促进了新民学会的成立与发展，引领青年积极投身社会变革，打破了传统交友观念的束缚。这些影响不仅在当时具有重要意义，也为后来的中国革命和建设奠定了坚实的基础。
